@@ -1,0 +1,53 @@
+/* header */
+.header {
+    min-height: 500px;
+    background: linear-gradient(to bottom right,
+            rgba(0, 48, 73, 0.8),
+            rgba(0, 48, 73, 0.8)),
+        url('/img/header-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+/* Content */
+.about-img {
+    width: 200px;
+}
+
+.about {
+    background-color: #fdf0d5;
+
+}
+
+.profile-icon {
+    color: #669bbc;
+    fill: #669bbc;
+}
+
+.skill-icon {
+    color: #669bbc;
+}
+
+.progress-bar {
+    fill: #669bbc !important;
+    color: #fdf0d5 !important;
+    background-color: #669bbc;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fdf0d5;
+}
+
+.footer-connect {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-icon {
+    color: #669bbc;
+    font-size: 2rem;
+
+}
