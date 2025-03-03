@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
-        rel="stylesheet" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -52,7 +51,7 @@
     </section>
 
     <!-- Profile & Skills -->
-    <section class="profile my-6">
+    <section class="profile my-6 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -145,14 +144,110 @@
             </div>
             <div class="row mt-5 text-center">
                 <div class="col-12">
-                    <a href="#" class="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2">Download CV</a>
+                    <a href="#" class="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2 mb-4">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
+    <section class="portfolio py-3">
+        <div class="text-center mb-3">
+            <h4 class="text-uppercase fw-bold">Projects</h4>
+            <hr class="w-25 mx-auto" />
+            <h2 class="mb-4">Check Out My Work</h2>
+            <p class="lead">Here are the list of my projects</p>
+        </div>
+        <div class="carousel-container">
+            <div id="halfContentCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6 carousel-content">
+                                <h2>Slide 1 Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                            <div class="col-md-6 carousel-thumbnail">
+                                <img src="img/Vera.png" alt="Thumbnail 1">
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 carousel-content">
+                                <h2>Slide 2 Title</h2>
+                                <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</p>
+                            </div>
+                            <div class="col-md-6 carousel-thumbnail">
+                                <img src="img/corso.png" alt="Thumbnail 2">
+                            </div>
+                        </div>
+                    </div>
 
-    <footer class="footer mt-4 py-5">
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 carousel-content">
+                                <h2>Slide 3 Title</h2>
+                                <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+                            </div>
+                            <div class="col-md-6 carousel-thumbnail">
+                                <img src="img/yavin.png" alt="Thumbnail 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 carousel-content">
+                                <h2>Slide 3 Title</h2>
+                                <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+                            </div>
+                            <div class="col-md-6 carousel-thumbnail">
+                                <img src="img/Web Portfolio.png" alt="Thumbnail 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 carousel-content">
+                                <h2>Slide 3 Title</h2>
+                                <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+                            </div>
+                            <div class="col-md-6 carousel-thumbnail">
+                                <img src="img/ebook.png" alt="Thumbnail 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-5 carousel-content">
+                                <h2>English–Filipino Auto Transcription with Speaker Diarization</h2>
+                                <p>An App which transcribe any audio/video files and able to distinguish different
+                                    speakers on the file This project used python, We also used 3 algorithms to better
+                                    transcribe and for speaker diarization.</p>
+                            </div>
+                            <div class="col-md-7 carousel-thumbnail">
+                                <img src="img/github.png" alt="Thumbnail 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#halfContentCarousel"
+                    data-bs-slide="prev">
+                    <span class="fa-solid fa-chevron-left carousel-prv"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#halfContentCarousel"
+                    data-bs-slide="next">
+                    <span class="fa-solid fa-chevron-right carousel-nxt"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -164,7 +259,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <h3>Quick Links</h3>
+                    <h3 class="footer-heading">Quick Links</h3>
                     <ul class="list-unstyled">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#discover">Discover</a></li>
@@ -187,6 +282,9 @@
         </div>
     </footer>
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/nav.js"></script>
 </body>
 

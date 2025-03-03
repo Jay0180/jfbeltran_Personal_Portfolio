@@ -1,3 +1,25 @@
+body h4,
+h3 {
+    color: #003049;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 10%;
+        /* Smaller buttons on mobile */
+    }
+
+    /* .carousel-indicators {
+        bottom: 10px;
+    } */
+}
+
 /* header */
 .header {
     min-height: 500px;
@@ -18,6 +40,7 @@
 
 }
 
+
 .profile-icon {
     color: #669bbc;
     fill: #669bbc;
@@ -34,6 +57,83 @@
 }
 
 
+.portfolio {
+    background-color: #fdf0d5;
+}
+
+
+/* carousel */
+/* Carousel container */
+.carousel-container {
+    width: 80%;
+    max-width: 900px;
+    margin-left: 15rem;
+    position: relative;
+}
+
+/* Ensure both sides are equal */
+.carousel-inner .row {
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+/* Conten*/
+.carousel-content {
+    padding: 1rem;
+}
+
+.carousel-content h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.carousel-content p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Image styling */
+.carousel-thumbnail img {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation buttons */
+.carousel-nxt,
+.carousel-prv {
+    position: absolute;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    color: #003049;
+    top: 50%;
+}
+
+.carousel-nxt {
+    left: 8rem;
+}
+
+.carousel-prv {
+    right: 8rem;
+}
+
+/* 
+.carousel-control-next {
+    position: relative;
+    left: 10rem;
+}
+
+.carousel-control-prev {
+    position: relative;
+    right: 10rem;
+} */
+
+
 /* Footer */
 .footer {
     background-color: #333;
@@ -47,7 +147,15 @@
 }
 
 .footer-icon {
-    color: #669bbc;
+    color: #fdf0d5;
     font-size: 2rem;
+}
 
+.footer-icon:hover {
+    color: #669bbc;
+}
+
+
+.footer-heading {
+    color: #fdf0d5;
 }
