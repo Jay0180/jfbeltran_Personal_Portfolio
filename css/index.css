@@ -221,6 +221,7 @@ a:hover {
     display: flex;
     gap: 1rem;
     margin: 1rem 0 2rem;
+    padding-left: 5rem;
 }
 
 .footer-icon {
@@ -231,6 +232,7 @@ a:hover {
 .footer-icon:hover {
     color: #669bbc;
 }
+
 
 .footer-heading,
 .footer-mainheading {
@@ -280,6 +282,10 @@ a:hover {
 
     .profile ul {
         padding-left: 0;
+    }
+
+    .footer-connect {
+        padding-left: 10rem;
     }
 
 }
