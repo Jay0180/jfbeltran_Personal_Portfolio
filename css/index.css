@@ -285,7 +285,7 @@ a:hover {
     }
 
     .footer-connect {
-        padding-left: 10rem;
+        align-content: center;
     }
 
 }
