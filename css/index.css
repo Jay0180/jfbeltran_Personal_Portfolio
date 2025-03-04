@@ -36,7 +36,7 @@ a:hover {
     text-align: center;
     min-height: 20vh;
     background: linear-gradient(to bottom right, rgba(0, 48, 73, 0.8), rgba(0, 48, 73, 0.8)),
-        url('/img/header-background.jpg') center/cover no-repeat;
+        url('/jfbeltran_Personal_Portfolio/img/header-background.jpg') center/cover no-repeat;
     color: #fdf0d5;
 }
 
@@ -238,6 +238,14 @@ a:hover {
     text-align: center;
 }
 
+.footer-llist {
+    text-align: right;
+}
+
+.footer-last-list {
+    padding-top: 3rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
 
@@ -273,4 +281,5 @@ a:hover {
     .profile ul {
         padding-left: 0;
     }
+
 }
